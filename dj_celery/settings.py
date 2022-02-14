@@ -135,8 +135,6 @@ CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
 CELERY_TIMEZONE = 'Asia/Kolkata'
 
-#vjwssonvafnlklnt
-
 # CELERY BEAT SETTING:
 BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 
@@ -145,6 +143,6 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = '3000timesfake@gmail.com'
+EMAIL_HOST_USER = '@gmail.com'
 EMAIL_HOST_PASSWORD = ''
-DEFAULT_FROM_EMAIL = 'Celery <3000timesfake@gmail.com>'
+DEFAULT_FROM_EMAIL = 'Celery <@gmail.com>'
